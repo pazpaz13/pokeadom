@@ -1812,6 +1812,11 @@ wBoxMonOT::    ds 11 * MONS_PER_BOX ; dd2a
 wBoxMonNicks:: ds 11 * MONS_PER_BOX ; de06
 wBoxMonNicksEnd:: ; dee2
 
+wRightAligned:: ds 1
+wReversedText:: ds 16
+wReversedTextEnd:: ds 1
+wBCDReverseTemp:: ds 16
+
 
 SECTION "Stack", WRAMX[$dfff], BANK[1]
 wStack:: ; dfff

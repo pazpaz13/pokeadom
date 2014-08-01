@@ -34,6 +34,7 @@ rLCDC_DEFAULT EQU %11100011
 	ld [$ff47], a
 	ld [$ff48], a
 	ld [$ff49], a
+	ld [wRightAligned], a
 
 	ld a, rLCDC_ENABLE_MASK
 	ld [rLCDC], a

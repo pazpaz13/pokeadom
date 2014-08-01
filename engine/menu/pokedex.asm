@@ -391,6 +391,10 @@ ShowPokedexData: ; 402d1 (10:42d1)
 
 ; function to display pokedex data from inside the pokedex
 ShowPokedexDataInternal: ; 402e2 (10:42e2)
+	ld a, [wRightAligned]
+	push af
+	xor a
+	ld [wRightAligned], a
 	ld hl,wd72c
 	set 1,[hl]
 	ld a,$33 ; 3/7 volume
@@ -564,6 +568,8 @@ ShowPokedexDataInternal: ; 402e2 (10:42e2)
 	res 1,[hl]
 	ld a,$77 ; max volume
 	ld [$ff24],a
+	pop af
+	ld [wRightAligned], a
 	ret
 
 HeightWeightText: ; 40448 (10:4448)

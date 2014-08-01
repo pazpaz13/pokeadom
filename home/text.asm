@@ -77,6 +77,8 @@ PlaceNextChar:: ; 1956 (0:1956)
 	jr nz,.next3
 	pop hl
 	hlCoord 1, 16
+	call AlignHL
+.next4
 	push hl
 	jp Next19E8
 
@@ -121,8 +123,23 @@ PlaceNextChar:: ; 1956 (0:1956)
 	jp z,Char59
 	cp $5A
 	jp z,Char5A
+	
+	; test if RightAligned is set
+	push af
+	ld a, [wRightAligned]
+	and a
+	
+	; increase or decrease hl based on alignment
+	jr nz, .rightAligned
+	pop af
 	ld [hli],a
+	jr .delay
+.rightAligned
+	pop af
+	ld [hld],a
+.delay
 	call PrintLetterDelay
+	
 Next19E8:: ; 19e8 (0:19e8)
 	inc de
 	jp PlaceNextChar
@@ -217,9 +234,7 @@ MonsterNameCharsCommon:: ; 1a37 (0:1a37)
 	ld de,wEnemyMonNick ; enemy active monster name
 
 FinishDTE:: ; 1a4b (0:1a4b)
-	call PlaceString
-	ld h,b
-	ld l,c
+	call PrintReversed
 	pop de
 	inc de
 	jp PlaceNextChar
@@ -269,12 +284,12 @@ Char58:: ; 1a95 (0:1a95)
 	cp 4
 	jp z,Next1AA2
 	ld a,$EE
-	Coorda 18, 16
+	Coorda 1, 16
 Next1AA2:: ; 1aa2 (0:1aa2)
 	call ProtectedDelay3
 	call ManualTextScroll
 	ld a,$7F
-	Coorda 18, 16
+	Coorda 1, 16
 Char57:: ; 1aad (0:1aad)
 	pop hl
 	ld de,Char58Text
@@ -287,7 +302,7 @@ Char58Text:: ; 1ab3 (0:1ab3)
 Char51:: ; 1ab4 (0:1ab4)
 	push de
 	ld a,$EE
-	Coorda 18, 16
+	Coorda 1, 16
 	call ProtectedDelay3
 	call ManualTextScroll
 	hlCoord 1, 13
@@ -297,12 +312,13 @@ Char51:: ; 1ab4 (0:1ab4)
 	call DelayFrames
 	pop de
 	hlCoord 1, 14
+	call AlignHL
 	jp Next19E8
 
 Char49:: ; 1ad5 (0:1ad5)
 	push de
 	ld a,$EE
-	Coorda 18, 16
+	Coorda 1, 16
 	call ProtectedDelay3
 	call ManualTextScroll
 	hlCoord 1, 10
@@ -318,19 +334,20 @@ Char49:: ; 1ad5 (0:1ad5)
 
 Char4B:: ; 1af8 (0:1af8)
 	ld a,$EE
-	Coorda 18, 16
+	Coorda 1, 16
 	call ProtectedDelay3
 	push de
 	call ManualTextScroll
 	pop de
 	ld a,$7F
-	Coorda 18, 16
+	Coorda 1, 16
 	;fall through
 Char4C:: ; 1b0a (0:1b0a)
 	push de
 	call Next1B18
 	call Next1B18
 	hlCoord 1, 16
+	call AlignHL
 	pop de
 	jp Next19E8
 
@@ -454,7 +471,7 @@ TextCommand01:: ; 1b97 (0:1b97)
 	push hl
 	ld h,b
 	ld l,c
-	call PlaceString
+	call PrintReversed
 	pop hl
 	jr NextTextCommand
 
@@ -499,7 +516,9 @@ TextCommand03:: ; 1bb7 (0:1bb7)
 ; (no arguments)
 TextCommand05:: ; 1bc5 (0:1bc5)
 	pop hl
-	bcCoord 1, 16 ; address of second line of dialogue text box
+	
+	bcCoord 1, 16
+	call AlignHL
 	jp NextTextCommand
 
 ; blink arrow and wait for A or B to be pressed
@@ -510,12 +529,12 @@ TextCommand06:: ; 1bcc (0:1bcc)
 	cp a,$04
 	jp z,TextCommand0D
 	ld a,$ee ; down arrow
-	Coorda 18, 16 ; place down arrow in lower right corner of dialogue text box
+	Coorda 1, 16 ; place down arrow in lower left corner of dialogue text box
 	push bc
 	call ManualTextScroll ; blink arrow and wait for A or B to be pressed
 	pop bc
 	ld a," "
-	Coorda 18, 16 ; overwrite down arrow with blank space
+	Coorda 1, 16 ; overwrite down arrow with blank space
 	pop hl
 	jp NextTextCommand
 
@@ -524,11 +543,12 @@ TextCommand06:: ; 1bcc (0:1bcc)
 ; (no arguments)
 TextCommand07:: ; 1be7 (0:1be7)
 	ld a," "
-	Coorda 18, 16 ; place blank space in lower right corner of dialogue text box
+	Coorda 1, 16 ; place blank space in lower left corner of dialogue text box
 	call Next1B18 ; scroll up text
 	call Next1B18
 	pop hl
-	bcCoord 1, 16 ; address of second line of dialogue text box
+	bcCoord 1, 16
+	call AlignHL
 	jp NextTextCommand
 
 ; execute asm inline
@@ -716,3 +736,13 @@ TextCommandJumpTable:: ; 1cc1 (0:1cc1)
 	dw TextCommand0B
 	dw TextCommand0C
 	dw TextCommand0D
+
+; Adds 17 to HL if RightAligned is on
+AlignHL::
+	ld a, [wRightAligned]
+	and a
+	ret z
+	ld a, 17
+	add l
+	ld l, a
+	ret

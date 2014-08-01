@@ -254,10 +254,23 @@ DisplayNamingScreen: ; 6596 (1:6596)
 	pop hl
 	ret nc
 	dec hl
+
 .addLetter
+	call CalcStringLength
+	; c is length, hl is null terminator
+	inc c ; include the terminator in length
+
+.addLetterLoop
+	ld a, [hl]
+	inc hl
+	ld [hl], a
+	dec hl
+	dec hl
+	dec c
+	jr nz, .addLetterLoop
+
 	ld a, [wHPBarNewHP]
-	ld [hli], a
-	ld [hl], $50
+	ld [wcf4b], a
 	ld a, (SFX_02_40 - SFX_Headers_02) / 3
 	call PlaySound
 	ret
@@ -266,8 +279,19 @@ DisplayNamingScreen: ; 6596 (1:6596)
 	and a
 	ret z
 	call CalcStringLength
-	dec hl
-	ld [hl], $50
+	; c is length
+	push de
+	ld hl, wcf4b
+	ld de, wcf4b
+	inc hl
+.deleteLetterLoop
+	ld a, [hl]
+	ld [de], a
+	inc de
+	inc hl
+	dec c
+	jr nz, .deleteLetterLoop
+	pop de
 	ret
 .asm_6702
 	ld a, [wCurrentMenuItem] ; wCurrentMenuItem
@@ -335,9 +359,9 @@ PrintAlphabet: ; 676f (1:676f)
 	ld [H_AUTOBGTRANSFERENABLED], a ; $ffba
 	ld a, [wHPBarOldHP]
 	and a
-	ld de, LowerCaseAlphabet ; $679e
+	ld de, EnglishKeyboard ; $679e
 	jr nz, .asm_677e
-	ld de, UpperCaseAlphabet ; $67d6
+	ld de, HebrewKeyboard ; $67d6
 .asm_677e
 	hlCoord 2, 5
 	ld bc, $509
@@ -360,11 +384,11 @@ PrintAlphabet: ; 676f (1:676f)
 	ld [H_AUTOBGTRANSFERENABLED], a ; $ffba
 	jp Delay3
 
-LowerCaseAlphabet: ; 679e (1:679e)
-	db "abcdefghijklmnopqrstuvwxyz ×():;[]",$e1,$e2,"-?!♂♀/",$f2,",¥UPPER CASE@"
+HebrewKeyboard: ; 679e (1:679e)
+	db "קראטוןםפףשדגכעיחלךזסבהנמצתץ×():;[]־ -?!♂♀/",$f2,",¥תילגנא@"
 
-UpperCaseAlphabet: ; 67d6 (1:67d6)
-	db "ABCDEFGHIJKLMNOPQRSTUVWXYZ ×():;[]",$e1,$e2,"-?!♂♀/",$f2,",¥lower case@"
+EnglishKeyboard: ; 67d6 (1:67d6)
+	db "WERTYUIOPASDFGHJKLZXCVBNMQ ×():;[]",$e1,$e2,"-?!♂♀/",$f2,",¥תירבע @"
 
 Func_680e: ; 680e (1:680e)
 	call CalcStringLength
@@ -373,18 +397,29 @@ Func_680e: ; 680e (1:680e)
 	hlCoord 10, 2
 	ld bc, $10a
 	call ClearScreenArea
-	hlCoord 10, 2
+
+	call CalcStringLength
+	; Subtract the length of the string from right edge
+	hlCoord 20, 2 ; Right screen edge
+	xor a
+	sub c
+	ld c, a
+	ld b, $FF
+	add hl, bc
+
 	ld de, wcf4b
 	call PlaceString
 	hlCoord 10, 3
-	ld a, [wd07d]
+	ld a, [wd07d] ; Is trainer or Pokémon name?
 	cp $2
 	jr nc, .asm_6835
 	ld b, $7
+	hlCoord 13, 3
 	jr .asm_6837
 .asm_6835
 	ld b, $a
 .asm_6837
+	; b contains the length
 	ld a, $76
 .asm_6839
 	ld [hli], a
@@ -411,6 +446,10 @@ Func_680e: ; 680e (1:680e)
 	jr nc, .asm_6867
 	ld a, $6
 .asm_6867
+	; c = 9 - a
+	ld c, a
+	ld a, 9
+	sub c
 	ld c, a
 	ld b, $0
 	hlCoord 10, 3
@@ -433,19 +472,20 @@ Func_6871: ; 6871 (1:6871)
 	ret
 
 Dakutens: ; 6885 (1:6885)
-	db "かが", "きぎ", "くぐ", "けげ", "こご"
-	db "さざ", "しじ", "すず", "せぜ", "そぞ"
-	db "ただ", "ちぢ", "つづ", "てで", "とど"
-	db "はば", "ひび", "ふぶ", "へべ", "ほぼ"
-	db "カガ", "キギ", "クグ", "ケゲ", "コゴ"
-	db "サザ", "シジ", "スズ", "セゼ", "ソゾ"
-	db "タダ", "チヂ", "ツヅ", "テデ", "トド"
-	db "ハバ", "ヒビ", "フブ", "へべ", "ホボ"
-	db $ff
+; Commented out to save on space (Unused in English version)
+;	db "かが", "きぎ", "くぐ", "けげ", "こご"
+;	db "さざ", "しじ", "すず", "せぜ", "そぞ"
+;	db "ただ", "ちぢ", "つづ", "てで", "とど"
+;	db "はば", "ひび", "ふぶ", "へべ", "ほぼ"
+;	db "カガ", "キギ", "クグ", "ケゲ", "コゴ"
+;	db "サザ", "シジ", "スズ", "セゼ", "ソゾ"
+;	db "タダ", "チヂ", "ツヅ", "テデ", "トド"
+;	db "ハバ", "ヒビ", "フブ", "へべ", "ホボ"
+;	db $ff
 
 Handakutens: ; 68d6 (1:68d6)
-	db "はぱ", "ひぴ", "ふぷ", "へぺ", "ほぽ"
-	db "ハパ", "ヒピ", "フプ", "へぺ", "ホポ"
+;	db "はぱ", "ひぴ", "ふぷ", "へぺ", "ほぽ"
+;	db "ハパ", "ヒピ", "フプ", "へぺ", "ホポ"
 	db $ff
 
 ; calculates the length of the string at wcf4b and stores it in c
@@ -478,28 +518,24 @@ PrintNamingText: ; 68f8 (1:68f8)
 	call GetMonName
 	hlCoord 4, 1
 	call PlaceString
-	ld hl, $1
-	add hl, bc
-	ld [hl], $c9
+	; ld hl, $1
+	; add hl, bc
+	; ld [hl], $c9 ; A leftover from the Japanese version.
+	; This used to be the "No" hiragana character (Meaning "'s"),
+	; but in the English version it's just one of the empty tiles.
+	; Since we use these empty tiles for Hebrew, it had to be removed.
 	hlCoord 1, 3
 	ld de, NicknameTextString ; $6953
 	jr .placeString
 .notNickname
-	call PlaceString
-	ld l, c
-	ld h, b
-	ld de, NameTextString ; $694d
 .placeString
 	jp PlaceString
 
 YourTextString: ; 693f (1:693f)
-	db "YOUR @"
+	db "?ךלש םשה@"
 
 RivalsTextString: ; 6945 (1:6945)
-	db "RIVAL's @"
-
-NameTextString: ; 694d (1:694d)
-	db "NAME?@"
+	db "?ביריה םש@"
 
 NicknameTextString: ; 6953 (1:6953)
-	db "NICKNAME?@"
+	db "?הביח םש@"

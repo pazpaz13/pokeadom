@@ -335,6 +335,14 @@ def quote_translator(asm):
     for token in asms:
         if even:
             characters = []
+            # Reverse the string if it starts with a $
+            if token[0] == "$":
+                fillers = len(token) - len(token.rstrip("@"))
+                if fillers:
+                    token = token[:-fillers]
+                token = token.decode("utf8")[:0:-1].encode("utf8")
+                token += "@" * fillers
+                
             # token is a string to convert to byte values
             while len(token):
                 # read a single UTF-8 codepoint

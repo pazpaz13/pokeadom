@@ -1,3 +1,9 @@
+# Hello!
+
+This is a WIP Hebrew-translated disassembly of Pokemon Red. It's forked from LIJI32's fork of Pokered.
+I'm a complete noob at both assembly and github, so lmk if I'm violating any github etiquette.
+You can contact me on Discord at Nog#4061! :)
+
 # Pokémon Red and Blue
 
 This is a disassembly of Pokémon Red and Blue.

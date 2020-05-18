@@ -1,3 +1,14 @@
+# Note from Nog
+
+This guide is outdated for the sole reason that all the tools mentioned have updated,
+while this fork has stayed behind.
+
+I managed to compile this on Windows using the latest cygwin,
+rgbasm version 0.1.1, and python 2.7.16.
+
+I'm sorry in advance if you seem to run into any compilation errors.
+If you did run into any issues and managed to solve them, please let me know how you did it and I will add it here!
+
 # Linux
 
 Dependencies:

@@ -1,22 +1,22 @@
 _VermilionHouse1Text1:: ; 9c449 (27:4449)
-	text "I'm getting my"
-	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
-	cont "in the north!"
+	text "אני מכין את"
+	line "הPIDGEY שלי להעביר" ;TODO
+	cont "עבורי מכתב ל SAFFRON" ;TODO
+	cont "שנמצא בצפון!"
 	done
 
 _VermilionHouse1Text2:: ; 9c488 (27:4488)
-	text "PIDGEY: Kurukkoo!@@"
+	text "PIDGEY: Kurukkoo!@@" ;TODO
 
 _VermilionHouse1Text3:: ; 9c49c (27:449c)
-	text "Dear PIPPI, I hope"
-	line "to see you soon."
+	text "היקרה PIPPI, אני מקווה" ;TODO
+	line "לראות אותך בקרוב."
 
-	para "I heard SAFFRON"
-	line "has problems with"
-	cont "TEAM ROCKET."
+	para "שמעתי של SAFFRON" ;TODO
+	line "יש בעיות עם"
+	cont "TEAM ROCKET." ;TODO
 
-	para "VERMILION appears"
-	line "to be safe."
+	para "VERMILION נראת" ;TODO
+	line "עיר בטוחה."
 	done
 

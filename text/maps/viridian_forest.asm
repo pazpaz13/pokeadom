@@ -1,124 +1,120 @@
 _ViridianForestText1:: ; 8031d (20:431d)
-	text "I came here with"
-	line "some friends!"
+	text "הגעתי לכאן עם"
+	line "כמה חברים!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "הם יצאו לכמה"
+	line "קרבות #ימונים!"
 	done
 
 _ViridianForestBattleText1:: ; 80359 (20:4359)
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "הי! יש לך"
+	line "#ימון! קדימה!"
+	cont "בוא נילחם!"
 	done
 
 _ViridianForestEndBattleText1:: ; 80387 (20:4387)
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "לא!"
+	line "CATERPIE לא יכול" ;TODO
+	cont "לחתוך את זה!"
 	prompt
 
 _ViridianFrstAfterBattleText1:: ; 803a2 (20:43a2)
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "שש! אתה תבריח"
+	line "את החרקים מכאן!"
 	done
 
 _ViridianForestBattleText2:: ; 803c3 (20:43c3)
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "יו! אתה לא יכול להתחמק"
+	line "אם אתה"
+	cont "#ימונים מאמן!"
 	done
 
 _ViridianForestEndBattleText2:: ; 803f2 (20:43f2)
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	text "אע?"
+	line "נגמרו לי"
+	cont "ה#ימונים!"
 	prompt
 
 _ViridianFrstAfterBattleText2:: ; 8040b (20:440b)
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "לעזזאל! אני הולך"
+	line "לתפוס כמה #ימונים"
+	cont "חזקים יותר!"
 	done
 
 _ViridianForestBattleText3:: ; 80438 (20:4438)
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "הי, חכה!"
+	line "לאן אתה ממהר?"
 	done
 
 _ViridianForestEndBattleText3:: ; 80458 (20:4458)
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "אני"
+	line "נותן! אתה טוב בזה!" ;TODO
 	prompt
 
 _ViridianFrstAfterBattleText3:: ; 80475 (20:4475)
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "לפעמים אתה יכול"
+	line "למצוא חפצים"
+	cont "!על האדמה"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "אני מחפש"
+	line "!חפץ שהפלתי"
 	done
 
 _ViridianForestText8:: ; 804c7 (20:44c7)
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "נגמרו לי"
+	line "ה#דורים לתפוס !"
+	cont "#איתם ימונים !"
 
-	para "You should carry"
-	line "extras!"
+	para "כדאי שתמיד ישארו לך"
+	line "כמה נותרים!"
 	done
 
 _ViridianForestText9:: ; 8050a (20:450a)
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ;TODO
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "אם אתה רוצה"
+	line "להימנע מקרבות,"
+	cont "היזהר מאזורי הדשא!"
 	done
 
 _ViridianForestText10:: ; 80553 (20:4553)
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "בכדי לרפא רעל השתמש"
+	line "ANTIDOTEב!" ;TODO
+	cont "#ימון MARTsהשג אותם ב !";TODO
 	done
 
 _ViridianForestText11:: ; 80584 (20:4584)
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ;TODO
+	
 
-	para "Contact PROF.OAK"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "צור קשר עם PROF.OAK" ;TODO
+	line "דרך המחשב כדי לקבל"
+	cont "הערכה על ה #DEX" ;TODO
+	cont "שלך!"
 	done
 
 _ViridianForestText12:: ; 805c6 (20:45c6)
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ;TODO
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "לא ניתן לגנוב"
+	line "#ימונים ממאמנים אחרים"
+	cont "תפוס רק #ימונים מהטבע"
 	done
 
 _ViridianForestText13:: ; 80613 (20:4613)
-	text "TRAINER TIPS"
+	text "TRAINER TIPS" ;TODO
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
+	para "החלש את ה#ימונים"
+	line "לפני שתנסה"
+	cont "לתפוס אותם!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "כאשר הם ללא פגע"
+	line "הם עלולים לברוח!"
 	done
 
 _ViridianForestText14:: ; 80667 (20:4667)
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	text "LEAVING" ;TODO
+	line "VIRIDIAN FOREST" ;TODO
+	cont "PEWTER CITY AHEAD" ;TODO
 	done
 

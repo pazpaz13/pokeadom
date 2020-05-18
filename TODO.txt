@@ -1,0 +1,3 @@
+Here's a small TODO list. I'll be keeping it update with some stuff that need to get done.
+List of names that need to be translated (currently left untranslated and marked with a comment "TODO"):
+[ ] Bill

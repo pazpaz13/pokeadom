@@ -1,6 +1,6 @@
 _Route7Text1:: ; 8de7a (23:5e7a)
-	text "UNDERGROUND PATH"
-	line "CELADON CITY -"
-	cont "LAVENDER TOWN"
+	text "דרך תת קרקעית"
+	line "עיר האביב -"
+	cont "עיר הלבנדר"
 	done
 

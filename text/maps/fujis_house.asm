@@ -21,7 +21,7 @@ _LavenderHouse1Text_1d8f4:: ; 99eee (26:5eee)
 	cont "orphaned #MON!"
 	done
 
-_LavenderHouse1Text_1d8f9:: ; 99f4b (26:5f4b)
+_LavenderHouse1Text_1d8f9:: ; 99f4b (26:5f4b) female
 	text "It's so warm!"
 	line "#MON are so"
 	cont "nice to hug!"

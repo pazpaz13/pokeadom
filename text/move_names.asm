@@ -1,167 +1,167 @@
 MoveNames::
-	db "חבטה@"
-	db "מכת קראטה@"
-	db "סטירה כפולה@"
-	db "אגרוף מטאור@"
-	db "אגרוף על@"
-	db "PAY DAY@"
-	db "אגרוף אש@"
-	db "אגרוף קרח@"
-	db "אגרוף רעם@"
-	db "שריטה@"
-	db "כליבה@"
-	db "גיליוטינה@"
-	db "משב סכינים@"
-	db "מחול החרבות@"
-	db "חיתוך@"
-	db "רוח פרצים@"
-	db "מכת כנף@"
-	db "מערבולת רוח@"
-	db "עוף@"
-	db "עקידה@"
-	db "מהלומה@"
-	db "שוט גפן@"
-	db "רקיעה@"
-	db "בעיטה כפולה@"
-	db "בעיטת על@"
-	db "בעיטת קפיצה@"
-	db "בעיטת גלגול@"
-	db "מתקפת חול@"
-	db "נגיחה@"
-	db "מתקפת קרן@"
-	db "מתקפת זעם@"
-	db "מקדחת קרן@"
-	db "התנפלות@"
-	db "חבטת גוף@"
-	db "עיטוף@"
-	db "הכנעה@"
-	db "השתוללות@"
-	db "חרב פיפיות@"
-	db "שוט זנב@"
-	db "עקיצת רעל@"
-	db "מחט כפולה@"
-	db "טיל מחט@"
-	db "מבט חודר@"
-	db "נשיכה@"
-	db "נהמה@"
-	db "שאגה@"
-	db "שירה@"
-	db "על-קולי@"
-	db "בום על-קולי@"
-	db "השבתה@"
-	db "חומצה@"
-	db "גחלים@"
-	db "להביור@"
-	db "ערפל@"
-	db "רובה מים@"
-	db "זרנוק@"
-	db "גלשן@"
-	db "קרן קרח@"
-	db "סופת שלג@"
-	db "קרן על-חושית@"
-	db "קרן בועות@"
-	db "קרן זוהרת@"
-	db "קרן על@"
-	db "ניקור@"
-	db "ניקור קודח@"
-	db "כניעה@"
-	db "בעיטה נמוכה@"
-	db "נגידה@"
-	db "מכה ססמית@"
-	db "עוצמה@"
-	db "יניקה@"
-	db "יניקת על@"
-	db "זרע יניקה@"
-	db "צמיחה@"
-	db "עלי להב@"
-	db "קרן שמש@"
-	db "אבקת רעל@"
-	db "נבג שיתוק@"
-	db "אבקת שינה@"
-	db "מחול עלי כותרת@"
-	db "יריית קורים@"
-	db "זעם דרקוני@"
-	db "מערבולת אש@"
-	db "שוק חשמלי@"
-	db "חזיז ורעם@"
-	db "גל אלקטרומגנטי@"
-	db "רעם@"
-	db "שיגור סלע@"
-	db "רעידת אדמה@"
-	db "בולען@"
-	db "התחפרות@"
-	db "הרעלה@"
-	db "אנדרלמוסיה@"
-	db "אשליה@"
-	db "היפנוזה@"
-	db "מדיטציה@"
-	db "זריזות@"
-	db "מתקפה זריזה@"
-	db "זעם@"
-	db "השתגרות@"
-	db "צל לילי@"
-	db "חקיינות@"
-	db "צווחה@"
-	db "ראייה כפולה@"
-	db "החלמה@"
-	db "הקשחה@"
-	db "צמצום@"
-	db "מסך עשן@"
-	db "קרן בלבול@"
-	db "נסיגה@"
-	db "עמדת הגנה@"
-	db "מחסום@"
-	db "מסך אוך@"
-	db "אובך@"
-	db "שיקוף@"
-	db "ריכוז אנרגיה@"
-	db "סבלנות@"
-	db "פעמן@"
-	db "העתקת מהלך@"
-	db "השמדה עצמית@"
-	db "הפצצת ביצים@"
-	db "ליקוק@"
-	db "ערפיח@"
-	db "רפש@"
-	db "מחבט עצמות@"
-	db "להבה מתרפצת@"
-	db "מפל מים@"
-	db "הידוק@"
-	db "חיש קל@"
-	db "ריצוץ גולגולת@"
-	db "ירי דורבנות@"
-	db "הגבלה@"
-	db "שיכחון@"
-	db "זיע@"
-	db "הטלת ביצה@"
-	db "בעיטת זינוק@"
-	db "נעיצת מבט@"
-	db "זלילת חלומות@"
-	db "גז רעיל@"
-	db "יידוי אבנים@"
-	db "התעלקות@"
-	db "נשיקת השטן@"
-	db "מתקפת שמים@"
-	db "שינוי צורה@"
-	db "בעבוע@"
-	db "חבטה מסחררת@"
-	db "נבג@"
-	db "הבזק@"
-	db "פעימה על-חושית@"
-	db "שכשוך@"
-	db "שריון חומצי@"
-	db "צבתות@"
-	db "פיצוץ@"
-	db "שריטות זעם@"
-	db "בומרנג@"
-	db "מנוחה@"
-	db "מפולת סלעים@"
-	db "ניבי על@"
-	db "השחזה@"
-	db "המרה@"
-	db "מתקפה משולשת@"
-	db "ניבים@"
-	db "חיתוך@"
-	db "ממלא מקום@"
-	db "מאבק@"
+	db "חבטה@" ; POUND
+	db "מכת קראטה@" ; KARATE CHOP
+	db "סטירה כפולה@" ; DOUBLESLAP
+	db "אגרוף מטאור@" ; COMET PUNCH
+	db "אגרוף על@" ; MEGA PUNCH
+	db "PAY DAY@" ; PAY DAY TODO
+	db "אגרוף אש@" ; FIRE PUNCH
+	db "אגרוף קרח@" ; ICE PUNCH
+	db "אגרוף רעם@" ; THUNDERPUNCH
+	db "שריטה@" ; SCRATCH
+	db "כליבה@" ; VICEGRIP
+	db "גיליוטינה@" ; GUILLOTINE
+	db "משב סכינים@" ; RAZOR WIND
+	db "מחול החרבות@" ; SWORDS DANCE
+	db "חיתוך@" ; CUT
+	db "רוח פרצים@" ; GUST
+	db "מכת כנף@" ; WING ATTACKS
+	db "מערבולת רוח@" ; WHIRLWIND
+	db "תעופה@" ; FLY
+	db "עקידה@" ; BIND
+	db "מהלומה@" ; SLAM
+	db "שוט גפן@" ; VINE WHIP
+	db "רקיעה@" ; POUND
+	db "בעיטה כפולה@" ; DOUBLE KICK
+	db "בעיטת על@" ; MEGA KICK
+	db "בעיטת קפיצה@" ; JUMP KICK
+	db "בעיטת גלגול@" ; ROLLING KICK
+	db "מתקפת חול@" ; SAND-ATTACK
+	db "נגיחה@" ; HEADBUTT
+	db "מתקפת קרן@" ; HORN ATTACK
+	db "מתקפת זעם@" ; FURY ATTACK
+	db "מקדחת קרן@" ; HORN DRILL
+	db "התנפלות@" ; TACKLE
+	db "חבטת גוף@" ; BODY SLAM
+	db "עיטוף@" ; WRAP
+	db "הכנעה@" ; TAKE DOWN
+	db "השתוללות@" ; THRASH
+	db "חרב פיפיות@" ; DOUBLE-EDGE
+	db "שוט זנב@" ; TAIL WHIP
+	db "עקיצת רעל@" ; POISON STING
+	db "מחט כפולה@" ; TWINEEDLE
+	db "טיל מחט@" ; PIN MISSILE
+	db "מבט חודר@" ; LEER
+	db "נשיכה@" ; BITE
+	db "נהמה@" ; GROWL
+	db "שאגה@" ; ROAR
+	db "שירה@" ; SING
+	db "על-קולי@" ; SUPERSONIC
+	db "בום על-קולי@" ; SONICBOOM
+	db "השבתה@" ; DISABLE
+	db "חומצה@" ; ACID
+	db "גחלים@" ; EMBER
+	db "להביור@" ; FLAMETHROWER
+	db "ערפל@" ; MIST
+	db "רובה מים@" ; WATER GUN
+	db "זרנוק@" ; HYDRO PUMP
+	db "גלשן@" ; SURF
+	db "קרן קרח@" ; ICE BEAM
+	db "סופת שלג@" ; BLIZZARD
+	db "קרן על-חושית@" ; PSYBEAM
+	db "קרן בועות@" ; BUBBLEBEAM
+	db "קרן זוהרת@" ; AURORA BEAM
+	db "קרן על@" ; HYPER BEAM
+	db "ניקור@" ; PECK
+	db "ניקור קודח@" ; DRILL PECK
+	db "כניעה@" ; SUBMISSION
+	db "בעיטה נמוכה@" ; LOW KICK
+	db "נגידה@" ; COUNTER
+	db "מכה ססמית@" ; SEISMIC TOSS
+	db "עוצמה@" ; STRENGTH
+	db "יניקה@" ; ABSORB
+	db "יניקת על@" ; MEGA DRAIN
+	db "זרע יניקה@" ; LEECH SEED
+	db "צמיחה@" ; GROWTH
+	db "עלי להב@" ; RAZOR LEAF
+	db "קרן שמש@" ; SOLARBEAM
+	db "אבקת רעל@" ; POISONPOWDER
+	db "נבג שיתוק@" ; STUN SPORE
+	db "אבקת שינה@" ; SLEEP POWDER
+	db "מחול עלי כותרת@" ; PETAL DANCE
+	db "יריית קורים@" ; STRING SHOT
+	db "זעם דרקוני@" ; DRAGON RAGE
+	db "מערבולת אש@" ; FIRE SPIN
+	db "שוק חשמלי@" ; THUNDERSHOCK
+	db "חזיז ורעם@" ; THUNDERBOLT
+	db "גל אלקטרומגנטי@" ; THUNDER WAVE
+	db "רעם@" ; THUNDER
+	db "שיגור סלע@" ; ROCK THROW
+	db "רעידת אדמה@" ; EARTHQUAKE
+	db "בולען@" ; FISSURE
+	db "התחפרות@" ; DIG
+	db "הרעלה@" ; POISON
+	db "אנדרלמוסיה@" ; CONFUSION
+	db "אשליה@" ; PSYCHIC
+	db "היפנוזה@" ; HYPNOSIS
+	db "מדיטציה@" ; MEDITATE
+	db "זריזות@" ; AGILITY
+	db "מתקפה זריזה@" ; QUICK ATTACK
+	db "זעם@" ; RAGE
+	db "השתגרות@" ; TELEPORT
+	db "צל לילי@" ; NIGHT SHADE
+	db "חקיינות@" ; MIMIC
+	db "צווחה@" ; SCREECH
+	db "ראייה כפולה@" ; DOUBLE TEAM
+	db "החלמה@" ; RECOVER
+	db "הקשחה@" ; HARDEN
+	db "צמצום@" ; MINIMIZE
+	db "מסך עשן@" ; SMOKESCREEN
+	db "קרן בלבול@" ; CONFUSION RAY
+	db "נסיגה@" ; WITHDRAW
+	db "עמדת הגנה@" ; DEFENSE CURL
+	db "מחסום@" ; BARRIER
+	db "מסך אור@" ; LIGHT SCREEN
+	db "אובך@" ; HAZE
+	db "שיקוף@" ; REFLECT
+	db "ריכוז אנרגיה@" ; FOCUS ENERGY
+	db "סבלנות@" ; BIDE
+	db "פעמן@" ; METRONOME
+	db "העתקת מהלך@" ; MIRROR MOVE
+	db "השמדה עצמית@" ; SELFDESTRUCT
+	db "הפצצת ביצים@" ; EGG BOMB
+	db "ליקוק@" ; LICK
+	db "ערפיח@" ; SMOG
+	db "רפש@" ; SLUDGE
+	db "מחבט עצמות@" ; BONE CLUB
+	db "להבה מתרפצת@" ; FIRE BLAST
+	db "מפל מים@" ; WATERFALL
+	db "הידוק@" ; CLAMP
+	db "חיש קל@" ; SWIFT
+	db "ריצוץ גולגולת@" ; SKULL BASH
+	db "ירי דורבנות@" ; SPIKE CANNON
+	db "הגבלה@" ; 
+	db "שיכחון@" ; AMNESIA
+	db "זיע@" ; KINESIS
+	db "הטלת ביצה@" ; SOFTBOILED
+	db "בעיטת זינוק@" ; HI JUMP KICK
+	db "נעיצת מבט@" ; GLARE
+	db "זלילת חלומות@" ; DREAM EATER
+	db "גז רעיל@" ; POISON GAS
+	db "יידוי אבנים@" ; BARRAGE
+	db "התעלקות@" ; LEECH LIFE
+	db "נשיקת השטן@" ; LOVELY KISS
+	db "מתקפת שמים@" ; SKY ATTACK
+	db "שינוי צורה@" ; TRANSFORM
+	db "בעבוע@" ; BUBBLE
+	db "חבטה מסחררת@" ; DIZZY PUNCH
+	db "נבג@" ; SPORE
+	db "הבזק@" ; FLASH
+	db "פעימה על-חושית@" ; PSYWAVE
+	db "שכשוך@" ; SPLASH
+	db "שריון חומצי@" ; ACID ARMOR
+	db "צבתות@" ; CRABHAMMER
+	db "פיצוץ@" ; EXPLOSION
+	db "שריטות זעם@" ; FURY SWIPES
+	db "בומרנג@" ; BOOMERANG
+	db "מנוחה@" ; REST
+	db "מפולת סלעים@" ; ROCK SLIDE
+	db "ניבי על@" ; HYPER FANG
+	db "השחזה@" ; SHARPEN
+	db "המרה@" ; CONVERSION
+	db "מתקפה משולשת@" ; TRI ATTACK
+	db "ניבים@" ; SUPER FANG
+	db "חיתוך@" ; SLASH
+	db "ממלא מקום@" ; SUBSTITUTE
+	db "מאבק@" ; STRUGGLE
 

@@ -1,104 +1,106 @@
 PikachuFanText::
-	text "אתה לא חושב"
-	line "שלפיקאצ׳ו שלי"
-	cont "יש זנב יפייפה?"
+	text "הבט בזנב המתוק"
+	line "של הPIKACHU שלי!" ; TODO
+	cont "נכון שהוא מדהים?"
 	done
 
 PikachuFanBetterText::
-	text "אוח, הפיקאצ׳ו שלי"
-	line "פי כמה יותר חמוד"
-	cont "מהאחד הזה!"
+	text "חה! הPIKACHU שלי" ; TODO
+	line "חמוד כפליים"
+	cont "מה#ימון ההוא!"
 	done
 
-SeelFanText::
-	text "אני כל כך אוהב את"
-	line "הסיל שלי!"
+SeelFanText:: ; female
+	text "אני פשוט מתה על"
+	line "הSEEL שלי!" ; TODO
 
-	para "זה צווח כשאני"
-	line "מחבק אותו!"
+	para "הוא מצפצף כשאני"
+	line "מחבקת אותו!"
 	done
 
-SeelFanBetterText::
-	text "אוי לי"
+SeelFanBetterText:: ; female
+	text "הו!"
 
-	para "הסיל שלי  "
-	line "הרבה יותר מרהיב!"
+	para "הSEEL שלי" ; TODO
+	line "הרבה יותר חמוד!"
 	done
 
 FanClubPikachuText::
-	text "פיקאצ׳ו: צ׳ו!"
-	line "פיקאצ׳ו!"
+	text "PIKACHU: Chu!" ; TODO
+	line "Pikachu!" ; TODO
 	done
 
 FanClubSeelText::
-	text "סיל: קיווו!"
+	text "SEEL: Kyuoo!" ; TODO
 	done
 
 FanClubMeetChairText::
-	text "אני יושב ראש "
-	line "מועדון המעריצים של ימונים#!"
+	text "אני נשיא מועדון"
+	line "מעריצי ה#ימונים!"
 
-	para "אני אספתי"
-	line "מעל למאה ימונים#"
+	para "האוסף שלי מונה מעל"
+	line "100 #ימונים!"
 
-	para "אני מאוד בררנית"
-	line "כשמדובר ב..."
-	cont "#ימונים!"
+	para "אני בררן מאוד"
+	line "כשזה מגיע"
+	cont "ל#ימונים!"
 
 	para "אז..."
 
-	para "האם הגעת"
-	line "לכאן כדי לשמוע"
-	cont "על ה#ימונים שלי?"
+	para "באת לבקר כדי"
+	line "לשמוע על"
+	cont "ה#ימונים שלי?"
 	done
 
 FanClubChairStoryText::
-	text "יופי!"
-	line "אז תקשיב!"
+	text "נהדר!"
+	line "אז תקשיב טוב טוב!"
 
-	para "רפידאש"
-	line "האהוב שלי..."
+	para "בבת עיני..."
+	line "RAPIDASH..." ; TODO
 
 	para "הוא...חמוד..."
-	line "אהיב...חכם..."
-	cont "ובנוסף לכך...מדהים..."
-	cont "אתה חושב כך?..."
+	line "מקסים...חכם..."
+	cont "וגם...מדהים..."
+	cont "אתה מסכים?..."
 	cont "הו כן...הוא..."
-	cont "מדהים..."
+	cont "מהמם..."
 	cont "אדיב..."
-	cont "אני מת עליו!"
+	cont "אין כמוהו!"
 
-	para "לחבק אותו...בזמן..."
-	cont "השינה...כל כך חמים"
-	cont "ונעים..."
+	para "חיבוק...כש..."
+	cont "נרדם...חמים"
+	cont "ונעים להחזיק..."
 	cont "מרהיב..."
-	cont "מקסים..."
-	cont "...אופס! לא שמתי לב"
-	cont "לזמן שעבר! המשכתי"
-	cont "לדבר איתך יותר מידי!"
+	cont "משובב נפש..."
+	cont "...אופס! תראה מה"
+	cont "השעה! אני מעכב"
+	cont "אותך!"
 
-	para "תודה על כך"
-	line "שהקשבת לי! אני רוצה"
-	cont "שתקבל את זה!"
+	para "תודה שהקשבת לי!"
+	line "אני רוצה לתת לך"
+	cont "את זה!"
 	prompt
 
 ReceivedBikeVoucherText::
-	text $52, " התקבל"
-	line "a @"
+	text $52, " קיבל"
+	line " @"
 	TX_RAM wcf4b
 	text "!@@"
 
 ExplainBikeVoucherText::
 	db $0
-	para "החלף את זה "
-	line "עבור אופניים!"
 
-	para "אל תדאג"
-	line "הפירו שלי יכול להטיס"
-	cont "אותי לכל מקום!"
+	para "ניתן להחליף את"
+	line "הקופון בעד אופניים!"
 
-	para "אז אני לא צריך"
-	line "את האופניים!"
+	para "אל תדאג לגבי,"
+	line "הFEAROW שלי ייקח" ; TODO
+	cont "אותי בתעופה לאן"
+	cont "שארצה!"
+
+	para "אז אין לי צורך"
+	line "באופניים!"
 
 	para "אני מקווה שאתה אוהב"
 	line "לרכב!"
@@ -113,22 +115,22 @@ FanClubNoStoryText::
 FanClubChairFinalText::
 	text "שלום, ", $52, "!"
 
-	para "האם הגעת"
-	line "אלי בנוגע ל#ימונים"
-	cont "שלי שוב?"
+	para "באת לשמוע על"
+	line "ה#ימונים שלי"
+	cont "שוב?"
 
-	para "לא? חבל!"
+	para "לא? חבל מאוד!"
 	done
 
 FanClubBagFullText::
-	text "תכין מקום עבור"
-	line "זה!"
+	text "פנה מקום בתיק"
+	line "בשביל זה!"
 	done
 
-_FanClubText6:: ; 9a948 (26:6948)
-	text "היושב ראש שלנו"
-	line "מאוד קשור"
-	cont "#לימונים."
+_FanClubText6:: ; 9a948 (26:6948) ; female
+	text "נשיא המועדון שלנו"
+	line "אוהב לדבר על"
+	cont "#ימונים."
 	done
 
 _FanClubText7:: ; 9a970 (26:6970)
@@ -141,4 +143,3 @@ _FanClubText8:: ; 9a99d (26:699d)
 	text "אם מישהו מתרברב,"
 	line "תחזיר לו גם!"
 	done
-

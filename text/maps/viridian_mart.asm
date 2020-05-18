@@ -1,49 +1,49 @@
 _ViridianPokeCenterText2:: ; 95ba1 (25:5ba1)
 _ViridianPokeCenterText1:: ; 95ba1 (25:5ba1)
-	text "You can use that"
-	line "PC in the corner."
+	text "אתה יכול להשתמש"
+	line "במחשב שבפינה."
 
-	para "The receptionist"
-	line "told me. So kind!"
+	para "פקידת הקבלה"
+	line "אמרה לי. כה נחמדה!"
 	done
 
 _ViridianPokeCenterText3:: ; 95be8 (25:5be8)
-	text "There's a #MON"
-	line "CENTER in every"
-	cont "town ahead."
+	text "יש מרכז"
+	line "#ימונים בכל"
+	cont "עיר ועיר."
 
-	para "They don't charge"
-	line "any money either!"
+	para "הם גם לא גובים"
+	line "שום כסף!"
 	done
 
 _ViridianMartText1:: ; 95c36 (25:5c36)
-	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	text "אוקי! מסור דרישת שלום"
+	line "לפרופסור אוק ממני!"
 	done
 
 _ViridianMartText4:: ; 95c58 (25:5c58)
-	text "Hey! You came from"
-	line "PALLET TOWN?"
+	text "הי! הגעת לכאן"
+	line "מהעיר פאלט?"
 	done
 
 ViridianMartParcelQuestText:: ; 95c79 (25:5c79)
-	text "You know PROF."
-	line "OAK, right?"
+	text "אתה מכיר את פרופסור"
+	line "אוק, נכון?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "ההזמנה שלו הגיעה."
+	line "האם אתה מוכן"
+	cont "לקחת אותה עבורו?"
 
-	para $52, " got"
-	line "OAK's PARCEL!@@"
+	para $52, " התקבלה"
+	line "חבילתו של אוק!@@"
 
 _ViridianMartText2:: ; 95cd5 (25:5cd5)
-	text "This shop sells"
-	line "many ANTIDOTEs."
+	text "החנות הזאת מוכרת"
+	line "הרבה נוגדני רעל."
 	done
 
 _ViridianMartText3:: ; 95cf6 (25:5cf6)
-	text "No! POTIONs are"
-	line "all sold out."
+	text "לא!לא נותרו שיקויים"
+	line "במלאי."
 	done
 

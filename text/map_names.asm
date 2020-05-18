@@ -16,7 +16,7 @@ CeladonCityName:
 FuchsiaCityName:
 	db "עיר השושנה@"
 CinnabarIslandName:
-	db "עיר הצנובר@"
+	db "אי הצנובר@"
 IndigoPlateauName:
 	db "עיר הניל@"
 SaffronCityName:

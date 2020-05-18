@@ -1,144 +1,144 @@
 PikachuFanText::
-	text "Won't you admire"
-	line "my PIKACHU's"
-	cont "adorable tail?"
+	text "אתה לא חושב"
+	line "שלפיקאצ׳ו שלי"
+	cont "יש זנב יפייפה?"
 	done
 
 PikachuFanBetterText::
-	text "Humph! My PIKACHU"
-	line "is twice as cute"
-	cont "as that one!"
+	text "אוח, הפיקאצ׳ו שלי"
+	line "פי כמה יותר חמוד"
+	cont "מהאחד הזה!"
 	done
 
 SeelFanText::
-	text "I just love my"
-	line "SEEL!"
+	text "אני כל כך אוהב את"
+	line "הסיל שלי!"
 
-	para "It squeals when I"
-	line "hug it!"
+	para "זה צווח כשאני"
+	line "מחבק אותו!"
 	done
 
 SeelFanBetterText::
-	text "Oh dear!"
+	text "אוי לי"
 
-	para "My SEEL is far"
-	line "more attractive!"
+	para "הסיל שלי  "
+	line "הרבה יותר מרהיב!"
 	done
 
 FanClubPikachuText::
-	text "PIKACHU: Chu!"
-	line "Pikachu!"
+	text "פיקאצ׳ו: צ׳ו!"
+	line "פיקאצ׳ו!"
 	done
 
 FanClubSeelText::
-	text "SEEL: Kyuoo!"
+	text "סיל: קיווו!"
 	done
 
 FanClubMeetChairText::
-	text "I chair the"
-	line "#MON Fan Club!"
+	text "אני יושב ראש "
+	line "מועדון המעריצים של ימונים#!"
 
-	para "I have collected"
-	line "over 100 #MON!"
+	para "אני אספתי"
+	line "מעל למאה ימונים#"
 
-	para "I'm very fussy"
-	line "when it comes to"
-	cont "#MON!"
+	para "אני מאוד בררנית"
+	line "כשמדובר ב..."
+	cont "#ימונים!"
 
-	para "So..."
+	para "אז..."
 
-	para "Did you come"
-	line "visit to hear"
-	cont "about my #MON?"
+	para "האם הגעת"
+	line "לכאן כדי לשמוע"
+	cont "על ה#ימונים שלי?"
 	done
 
 FanClubChairStoryText::
-	text "Good!"
-	line "Then listen up!"
+	text "יופי!"
+	line "אז תקשיב!"
 
-	para "My favorite"
-	line "RAPIDASH..."
+	para "רפידאש"
+	line "האהוב שלי..."
 
-	para "It...cute..."
-	line "lovely...smart..."
-	cont "plus...amazing..."
-	cont "you think so?..."
-	cont "oh yes...it..."
-	cont "stunning..."
-	cont "kindly..."
-	cont "love it!"
+	para "הוא...חמוד..."
+	line "אהיב...חכם..."
+	cont "ובנוסף לכך...מדהים..."
+	cont "אתה חושב כך?..."
+	cont "הו כן...הוא..."
+	cont "מדהים..."
+	cont "אדיב..."
+	cont "אני מת עליו!"
 
-	para "Hug it...when..."
-	cont "sleeping...warm"
-	cont "and cuddly..."
-	cont "spectacular..."
-	cont "ravishing..."
-	cont "...Oops! Look at"
-	cont "the time! I kept"
-	cont "you too long!"
+	para "לחבק אותו...בזמן..."
+	cont "השינה...כל כך חמים"
+	cont "ונעים..."
+	cont "מרהיב..."
+	cont "מקסים..."
+	cont "...אופס! לא שמתי לב"
+	cont "לזמן שעבר! המשכתי"
+	cont "לדבר איתך יותר מידי!"
 
-	para "Thanks for hearing"
-	line "me out! I want"
-	cont "you to have this!"
+	para "תודה על כך"
+	line "שהקשבת לי! אני רוצה"
+	cont "שתקבל את זה!"
 	prompt
 
 ReceivedBikeVoucherText::
-	text $52, " received"
+	text $52, " התקבל"
 	line "a @"
 	TX_RAM wcf4b
 	text "!@@"
 
 ExplainBikeVoucherText::
 	db $0
-	para "Exchange that for"
-	line "a BICYCLE!"
+	para "החלף את זה "
+	line "עבור אופניים!"
 
-	para "Don't worry, my"
-	line "FEAROW will FLY"
-	cont "me anywhere!"
+	para "אל תדאג"
+	line "הפירו שלי יכול להטיס"
+	cont "אותי לכל מקום!"
 
-	para "So, I don't need a"
-	line "BICYCLE!"
+	para "אז אני לא צריך"
+	line "את האופניים!"
 
-	para "I hope you like"
-	line "cycling!"
+	para "אני מקווה שאתה אוהב"
+	line "לרכב!"
 	done
 
 FanClubNoStoryText::
-	text "Oh. Come back"
-	line "when you want to"
-	cont "hear my story!"
+	text "הו, תחזור"
+	line "כשתרצה"
+	cont "לשמוע את הסיפור שלי!"
 	done
 
 FanClubChairFinalText::
-	text "Hello, ", $52, "!"
+	text "שלום, ", $52, "!"
 
-	para "Did you come see"
-	line "me about my"
-	cont "#MON again?"
+	para "האם הגעת"
+	line "אלי בנוגע ל#ימונים"
+	cont "שלי שוב?"
 
-	para "No? Too bad!"
+	para "לא? חבל!"
 	done
 
 FanClubBagFullText::
-	text "Make room for"
-	line "this!"
+	text "תכין מקום עבור"
+	line "זה!"
 	done
 
 _FanClubText6:: ; 9a948 (26:6948)
-	text "Our Chairman is"
-	line "very vocal about"
-	cont "#MON."
+	text "היושב ראש שלנו"
+	line "מאוד קשור"
+	cont "#לימונים."
 	done
 
 _FanClubText7:: ; 9a970 (26:6970)
-	text "Let's all listen"
-	line "politely to other"
-	cont "trainers!"
+	text "בואו כולנו נקשיב"
+	line "בצורה מכובדת לשאר"
+	cont "המאמנים!"
 	done
 
 _FanClubText8:: ; 9a99d (26:699d)
-	text "If someone brags,"
-	line "brag right back!"
+	text "אם מישהו מתרברב,"
+	line "תחזיר לו גם!"
 	done
 

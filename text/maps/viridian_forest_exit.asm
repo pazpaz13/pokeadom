@@ -3,18 +3,18 @@ _ViridianForestExitText1:: ; 8a6fd (22:66fd)
 	line "רק ביערות"
 	cont "ובמערות."
 
-	para "אתה צריך להסתכל"
+	para "אתה צריך לחפש"
 	line "בכל מקום"
 	cont "בכדי למצוא סוגים שונים!"
 	done
 
 _ViridianForestExitText2:: ; 8a75d (22:675d)
-	text "האם שמת לב"
-	line "אל השיחים המשונים"
+	text "שמת לב"
+	line "לשיחים המשונים"
 	cont "שבצד הדרך?"
 
-	para "הם יכולים להיחתך רק"
-	line "בעזרת מתקפת"
-	cont "#ימונים מיוחדת."
+	para "רק מהלך חיתוך"
+	line "מיוחד יכול להיפטר"
+	cont "מהם."
 	done
 

@@ -1,20 +1,20 @@
 _ViridianForestExitText1:: ; 8a6fd (22:66fd)
-	text "Many #MON live"
-	line "only in forests "
-	cont "and caves."
+	text "#ימונים רבים חיים"
+	line "רק ביערות"
+	cont "ובמערות."
 
-	para "You need to look"
-	line "everywhere to get"
-	cont "different kinds!"
+	para "אתה צריך להסתכל"
+	line "בכל מקום"
+	cont "בכדי למצוא סוגים שונים!"
 	done
 
 _ViridianForestExitText2:: ; 8a75d (22:675d)
-	text "Have you noticed"
-	line "the bushes on the"
-	cont "roadside?"
+	text "האם שמת לב"
+	line "אל השיחים המשונים"
+	cont "שבצד הדרך?"
 
-	para "They can be cut"
-	line "down by a special"
-	cont "#MON move."
+	para "הם יכולים להיחתך רק"
+	line "בעזרת מתקפת"
+	cont "#ימונים מיוחדת."
 	done
 

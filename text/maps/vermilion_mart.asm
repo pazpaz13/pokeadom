@@ -1,24 +1,20 @@
 _VermilionMartText2:: ; 9a9c1 (26:69c1)
-	text "There are evil"
-	line "people who will"
-	cont "use #MON for"
-	cont "criminal acts."
+	text "קיימים אנשים רעים"
+	line "שישתמשו ב#ימונים עבור"
+	cont "מעשיהם הפליליים"
 
-	para "TEAM ROCKET"
-	line "traffics in rare"
-	cont "#MON."
+	para "TEAM ROCKET" ;TODO
+	line "סוחרים ב#ימונים נדירים"
 
-	para "They also abandon"
-	line "#MON that they"
-	cont "consider not to"
-	cont "be popular or"
-	cont "useful."
+	para "הם גם נוטשים #ימונים"
+	line "שהם מחשיבים כלא"
+	cont "פופולריים או שימושיים"
 	done
 
 _VermilionMartText3:: ; 9aa67 (26:6a67)
-	text "I think #MON"
-	line "can be good or"
-	cont "evil. It depends"
-	cont "on the trainer."
+	text "אני חושב ש#ימונים"
+	line "יכולים להיות טובים או"
+	cont "רעים, זה תלוי"
+	cont "במאמן שלהם."
 	done
 

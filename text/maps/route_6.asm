@@ -91,7 +91,7 @@ _Route6AfterBattleText6:: ; 8de23 (23:5e23)
 	done
 
 _Route6Text7:: ; 8de49 (23:5e49)
-	text "דרך תת קרקעית"
+	text "מעבר תת קרקעי"
 	line "עיר הטורקיז -"
 	cont "עיר הארגמן"
 	done

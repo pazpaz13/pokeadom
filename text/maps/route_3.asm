@@ -4,13 +4,13 @@ _Route3Text1:: ; 8d779 (23:5779)
 	cont "אנחה..."
 
 	para "המנהרה הזאת"
-	line "מתעלת עיר הטורקיז"
+	line "מעיר הטורקיז"
 	cont "ממש מוציאה ממך את המיץ!"
 	done
 
 _Route3BattleText1:: ; 8d7d5 (23:57d5)
 	text "היי! אני פגשתי אותך"
-	line "ביער ירוק-עד!"
+	line "ביער ירוק-העד!"
 	done
 
 _Route3EndBattleText1:: ; 8d7f9 (23:57f9)
@@ -37,10 +37,11 @@ _Route3EndBattleText2:: ; 8d87f (23:587f)
 	prompt
 
 _Route3AfterBattleText2:: ; 8d893 (23:5893)
-	text "אתה מאכסן"
+	text "אתה מאחסן"
 	line "את ה#ימונים שלך"
-	cont "במחשב? כל קופסא"
-	cont "יכולה להחזיק 20 #ימונים!"
+	cont "במחשב? כל קופסה"
+	cont "יכולה להכיל עד"
+	cont "20 #ימונים!"
 	done
 
 _Route3BattleText3:: ; 8d8d0 (23:58d0)
@@ -66,21 +67,20 @@ _Route3BattleText4:: ; 8d924 (23:5924)
 
 _Route3EndBattleText4:: ; 8d944 (23:5944)
 	text "לו היה לי"
-	line "#מון חדש"
+	line "#ימון חדש"
 	cont "הייתי מנצחת!"
 	prompt
 
 _Route3AfterBattleText4:: ; 8d966 (23:5966)
-	text "אם קופסאת #ימונים"
+	text "אם קופסת #ימונים"
 	line "במחשב מלאה עד אפס מקום,"
 	cont "פשוט תחליף"
-	cont "לקופסא אחרת!"
+	cont "לקופסה אחרת!"
 	done
 
 _Route3BattleText5:: ; 8d9a6 (23:59a6)
 	text "הצורה שבה הבטת בי"
-	line "פשוט כל כך"
-	cont "מסקרנת!"
+	line "כל כך מסקרנת!"
 	done
 
 _Route3EndBattleText5:: ; 8d9d1 (23:59d1)
@@ -111,17 +111,18 @@ _Route3AfterBattleText6:: ; 8da3b (23:5a3b)
 
 _Route3BattleText7:: ; 8da62 (23:5a62)
 	text "אתה יכול להלחם"
-	line "ב#ימון החדש שלי!"
+	line "ב#ימונים החדשים"
+	cont "שלי!"
 	done
 
 _Route3EndBattleText7:: ; 8da7e (23:5a7e)
-	text "בוצע"
+	text "נזללתי"
 	line "כמו ארוחת ילדים!"
 	prompt
 
 _Route3AfterBattleText7:: ; 8da91 (23:5a91)
 	text "#ימונים מאומנים"
-	line "הינם חזקים יותר"
+	line "חזקים יותר"
 	cont "מ#ימונים פראיים!"
 	done
 
@@ -131,7 +132,7 @@ _Route3BattleText8:: ; 8dac0 (23:5ac0)
 	done
 
 _Route3EndBattleText8:: ; 8dad8 (23:5ad8)
-	text "זהו זה?"
+	text "זה הכל?"
 	prompt
 
 _Route3AfterBattleText8:: ; 8dae3 (23:5ae3)

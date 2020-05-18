@@ -1,8 +1,8 @@
-_CopycatsHouse1FText1:: ; a14f7 (28:54f7)
-	text "My daughter is so"
-	line "self-centered."
-	cont "She only has a"
-	cont "few friends."
+_CopycatsHouse1FText1:: ; a14f7 (28:54f7) female
+	text "הבת שלי מאוד"
+	line "מרוכזת בעצמה."
+	cont "אין לה הרבה"
+	cont "חברים."
 	done
 
 _CopycatsHouse1FText2:: ; a1535 (28:5535)

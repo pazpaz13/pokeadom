@@ -1,4 +1,4 @@
-_CeruleanTrashedText_1d6ab:: ; 9875c (26:475c)
+_CeruleanTrashedText_1d6ab:: ; 9875c (26:475c) male
 	text "Those miserable"
 	line "ROCKETs!"
 
@@ -14,7 +14,7 @@ _CeruleanTrashedText_1d6ab:: ; 9875c (26:475c)
 	line "bundle, it did!"
 	done
 
-_CeruleanTrashedText_1d6b0:: ; 987e2 (26:47e2)
+_CeruleanTrashedText_1d6b0:: ; 987e2 (26:47e2) male
 	text "I figure what's"
 	line "lost is lost!"
 
@@ -23,7 +23,7 @@ _CeruleanTrashedText_1d6b0:: ; 987e2 (26:47e2)
 	cont "DIG without a TM!"
 	done
 
-_CeruleanHouseTrashedText2:: ; 98834 (26:4834)
+_CeruleanHouseTrashedText2:: ; 98834 (26:4834) girl
 	text "TEAM ROCKET must"
 	line "be trying to DIG"
 	cont "their way into no"

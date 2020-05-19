@@ -1,20 +1,20 @@
 _CeladonMartRoofText_484ee:: ; 9cbb5 (27:4bb5)
-	text "Give her which"
-	line "drink?"
+	text "איזה שתיה"
+	line "לתת לה?"
 	done
 
 _CeladonMartRoofText_484f3:: ; 9cbcc (27:4bcc)
-	text "Yay!"
+	text "יש!"
 
-	para "FRESH WATER!"
+	para "FRESH WATER!" ;TODO
 
-	para "Thank you!"
+	para "!תודה"
 
-	para "You can have this"
-	line "from me!@@"
+	para "קח את זה מתנה"
+	line "ממני! @@"
 
 _CeladonMartRoofText_484f9:: ; 9cc06 (27:4c06)
-	text $52, " received"
+	text $52, " קיבל"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
@@ -23,24 +23,25 @@ _CeladonMartRoofText_484fe:: ; 9cc1a (27:4c1a)
 	db $0
 	para "@"
 	TX_RAM wcf4b
-	text " contains"
-	line "ICE BEAM!"
+	text " כולל"
+	line "ICE BEAM!" ;TODO
 
-	para "It can freeze the"
-	line "target sometimes!@@"
+	para "זה יכול להקפיא"
+	line "!לעיתים את המטרה@@" ;TODO - פשוט תעיפי מבט פה
 
 _CeladonMartRoofText_48504:: ; 9cc5a (27:4c5a)
-	text "Yay!"
+	text "יש!"
 
-	para "SODA POP!"
+	para "SODA POP!" ;TODO
 
-	para "Thank you!"
+	para "!תודה"
 
-	para "You can have this"
-	line "from me!@@"
+	para "קח את זה מתנה"
+	line "ממני! @@"
+
 
 _CeladonMartRoofText_4850a:: ; 9cc91 (27:4c91)
-	text $52, " received"
+	text $52, " קיבל"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
@@ -49,11 +50,11 @@ _CeladonMartRoofText_4850f:: ; 9cca5 (27:4ca5)
 	db $0
 	para "@"
 	TX_RAM wcf4b
-	text " contains"
-	line "ROCK SLIDE!"
+	text " כולל"
+	line "ROCK SLIDE!" ;TODO
 
-	para "It can spook the"
-	line "target sometimes!@@"
+	para "זה יכול להפחיד"
+	line "לעיתים את המטרה!@@" ;TODO
 
 _CeladonMartRoofText_48515:: ; 9cce6 (27:4ce6)
 	text "Yay!"

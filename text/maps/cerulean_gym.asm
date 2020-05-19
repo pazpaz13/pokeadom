@@ -1,11 +1,10 @@
 _CeruleanGymText_5c7be:: ; 989c1 (26:49c1)
-	text "Hi, you're a new"
-	line "face!"
+	text "היי, אתה חדש פה!"
 
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
+	para "מאמנים ששואפים"
+	line "להיות מקצוענים"
+	cont "צריכים שתהיה להם"
+	cont "גישה ל#ימונים!"
 
 	para "What is your"
 	line "approach when you"

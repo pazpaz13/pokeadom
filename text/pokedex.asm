@@ -1,61 +1,57 @@
 _RhydonDexEntry::
-	text "Protected by an"
-	next "armor-like hide,"
-	next "it is capable of"
+	text "בזכות עורו הקשיח"
+	next "כמו שריון, הוא"
+	next "מסוגל לשרוד בתוך"
 
-	page "living in molten"
-	next "lava of 3,600"
-	next "degrees"
+	page "מגמה בחום של"
+	next "3,600 מעלות"
 	dex
 
 _KangaskhanDexEntry::
-	text "The infant rarely"
-	next "ventures out of"
-	next "its mother's"
+	text "הצאצא כמעט ולא"
+	next "עוזב את הכיס"
+	next "שעל בטן אימו עד"
 
-	page "protective pouch"
-	next "until it is 3"
-	next "years old"
+	page "שהוא מגיע לגיל"
+	next "3 שנים"
 	dex
 
 _NidoranMDexEntry::
-	text "Stiffens its ears"
-	next "to sense danger."
-	next "The larger its"
+	text "אוזניו מזדקפות"
+	next "כאשר הוא חש בסכנה."
+	next "ככל שקרניו גדולות,"
 
-	page "horns, the more"
-	next "powerful its"
-	next "secreted venom"
+	page "כך מתחזק הארס"
+	next "שהוא מפריש."
 	dex
 
 _ClefairyDexEntry::
-	text "Its magical and"
-	next "cute appeal has"
-	next "many admirers."
+	text "החן והחומד שלה"
+	next "מזכה אותה במעריצים"
+	next "רבים. היא נדירה"
 
-	page "It is rare and"
-	next "found only in"
-	next "certain areas"
+	page "וניתן למצוא אותה"
+	next "רק באיזורים"
+	next "מסוימים."
 	dex
 
 _SpearowDexEntry::
-	text "Eats bugs in"
-	next "grassy areas. It"
-	next "has to flap its"
+	text "ניזון מחרקים שחיים"
+	next "במדשאות. הוא נאלץ"
+	next "לחבוט בכנפיו"
 
-	page "short wings at"
-	next "high speed to"
-	next "stay airborne"
+	page "הקצרות במרץ רב"
+	next "כדי שיוכל להמשיך"
+	next "לעוף"
 	dex
 
 _VoltorbDexEntry::
-	text "Usually found in"
-	next "power plants."
-	next "Easily mistaken"
+	text "מצוי בדרך-כלל"
+	next "בתחנות כוח. דומה"
+	next "מאוד לפוכדור,"
 
-	page "for a # BALL,"
-	next "they have zapped"
-	next "many people"
+	page "ולכן רבים התחשמלו"
+	next "ממנו."
 	dex
 
 _NidokingDexEntry::

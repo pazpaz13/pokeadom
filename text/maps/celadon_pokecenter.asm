@@ -6,8 +6,8 @@ _CeladonPokecenterText2:: ; 9d226 (27:5226)
 	done
 
 _CeladonPokecenterText3:: ; 9d262 (27:5262)
-	text "I rode uphill on"
-	line "CYCLING ROAD from"
-	cont "FUCHSIA!"
+	text "רכבתי לכאן בעליה"
+	line "בשביל האופניים"
+	cont "מעיר השושנה!"
 	done
 

@@ -1,4 +1,4 @@
-_CeladonGameCornerText1:: ; 9d8d5 (27:58d5)
+_CeladonGameCornerText1:: ; 9d8d5 (27:58d5) female
 	text "Welcome!"
 
 	para "You can exchange"
@@ -52,7 +52,7 @@ _CeladonGameCornerText3:: ; 9da1c (27:5a1c)
 	cont "by TEAM ROCKET."
 	done
 
-_CeladonGameCornerText4:: ; 9da61 (27:5a61)
+_CeladonGameCornerText4:: ; 9da61 (27:5a61) foulard woman
 	text "I think these"
 	line "machines have"
 	cont "different odds."
@@ -77,7 +77,7 @@ _CeladonGameCornerText_48dac:: ; 9dad9 (27:5ad9)
 	line "and go."
 	done
 
-_CeladonGameCornerText6:: ; 9daf4 (27:5af4)
+_CeladonGameCornerText6:: ; 9daf4 (27:5af4) mom geisha female
 	text "I'm having a"
 	line "wonderful time!"
 	done

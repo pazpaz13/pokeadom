@@ -1,19 +1,19 @@
 _BikeShopText_1d810:: ; 98e03 (26:4e03)
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
+	text "שלום! ברוך הבא"
+	line "לחנות האופניים."
 
-	para "Have we got just"
-	line "the BIKE for you!"
+	para "יש לנו זוג אופניים"
+	line "בדיוק בשבילך!"
 	prompt
 
 _BikeShopText_1d815:: ; 98e45 (26:4e45)
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "אלה אופניים שווים!"
+	line "אתה מעוניין בהם?"
 	done
 
 _BikeShopText_1d81a:: ; 98e67 (26:4e67)
-	text "Sorry! You can't"
-	line "afford it!"
+	text "אני מצטער, אבל"
+	line "אין לך מספיק כסף!"
 	prompt
 
 _BikeShopText_1d81f:: ; 98e83 (26:4e83)
@@ -48,14 +48,13 @@ _BikeShopText_1d834:: ; 98f4d (26:4f4d)
 	line "room for this!"
 	done
 
-_BikeShopText_1d843:: ; 98f6d (26:4f6d)
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+_BikeShopText_1d843:: ; 98f6d (26:4f6d) female
+	text "זוג אופניים פשוט"
+	line "הוא טוב מספיק בשבילי!"
+	cont "אי אפשר להרכיב סל"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "קניות על אופני"
+	line "הרים!"
 	done
 
 _BikeShopText_1d85c:: ; 98fc1 (26:4fc1)

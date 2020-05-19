@@ -1,4 +1,4 @@
-_CeladonCityText1:: ; a59fb (29:59fb)
+_CeladonCityText1:: ; a59fb (29:59fb) little girl
 	text "I got my KOFFING"
 	line "in CINNABAR!"
 
@@ -13,7 +13,7 @@ _CeladonCityText2:: ; a5a4b (29:5a4b)
 	cont "full of women!"
 	done
 
-_CeladonCityText3:: ; a5a79 (29:5a79)
+_CeladonCityText3:: ; a5a79 (29:5a79) girl
 	text "The GAME CORNER"
 	line "is bad for our"
 	cont "city's image!"

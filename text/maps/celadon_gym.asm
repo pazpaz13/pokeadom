@@ -1,219 +1,221 @@
 _CeladonGymText_48a5e:: ; 9d28f (27:528f)
-	text "Hello. Lovely"
-	line "weather isn't it?"
-	cont "It's so pleasant."
+	text "שלום. מזג האוויר"
+	line "היום נפלא, הלא"
+	cont "כך? כל כך נעים"
+	cont "בחוץ."
 
-	para "...Oh dear..."
-	line "I must have dozed"
-	cont "off. Welcome."
+	para "...אה..."
+	line "נדמה שנרדמתי."
+	cont "ברוך הבא."
 
-	para "My name is ERIKA."
-	line "I am the LEADER"
-	cont "of CELADON GYM."
+	para "שמי הוא איריס."
+	line "אני מנהיגת המכון"
+	cont "של עיר האביב."
 
-	para "I teach the art of"
-	line "flower arranging."
-	cont "My #MON are of"
-	cont "the grass-type."
+	para "אני מלמדת את"
+	line "האומנות של סידור"
+	cont "סידור זרי פרחים."
+	cont "ה#ימונים שלי הם"
+	cont "מסוג דשא."
 
-	para "Oh, I'm sorry, I"
-	line "had no idea that"
-	cont "you wished to"
-	cont "challenge me."
+	para "אה, אני מצטערת,"
+	line "לא היה לי מושג"
+	cont "שרצית לאתגר אותי."
 
-	para "Very well, but I"
-	line "shall not lose."
+	para "בסדר גמור, אך"
+	line "אני לא אפסיד."
 	done
 
 _CeladonGymText_48a63:: ; 9d3c2 (27:53c2)
-	text "Oh!"
-	line "I concede defeat."
+	text "הו!"
+	line "אני מודה בתבוסתי."
 
-	para "You are remarkably"
-	line "strong."
+	para "אתה חזק להפליא."
 
-	para "I must confer you"
-	line "the RAINBOWBADGE."
+	para "עלי להעניק לך את"
+	line "תג הקשת בענן."
 	prompt
 
 _CeladonGymText_48a68:: ; 9d418 (27:5418)
-	text "You are cataloging"
-	line "#MON? I must"
-	cont "say I'm impressed."
+	text "אתה אוסף מידע על"
+	line "#ימונים? עלי"
+	cont "לומר שזה מרשים."
 
-	para "I would never"
-	line "collect #MON"
-	cont "if they were"
-	cont "unattractive."
+	para "לעולם לא הייתי"
+	line "תופסת פוקימון"
+	cont "שנראה בעיני לא"
+	cont "מושך."
 	done
 
 _CeladonGymText9:: ; 9d481 (27:5481)
-	text "The RAINBOWBADGE"
-	line "will make #MON"
-	cont "up to L50 obey."
+	text "בעזרת תג הקשת"
+	line "בענן, #ימונים"
+	cont "עד רמה 50 יצייתו"
+	cont "לך."
 
-	para "It also allows"
-	line "#MON to use"
-	cont "STRENGTH in and"
-	cont "out of battle."
+	para "התג גם מאפשר"
+	line "ל#ימונים להשתמש"
+	cont "בעוצמה בזמן קרב"
+	cont "וגם מחוץ לקרב."
 
-	para "Please also take"
-	line "this with you."
+	para "בבקשה, קח איתך גם"
+	line "את זה."
 	done
 
 _ReceivedTM21Text:: ; 9d50c (27:550c)
-	text $52, " received"
+	text $52, " קיבל"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _TM21ExplanationText:: ; 9d520 (27:5520)
 	db $0
-	para "TM21 contains"
-	line "MEGA DRAIN."
+	para "TM21 מכיל את המהלך"
+	line "יניקת על."
 
-	para "Half the damage"
-	line "it inflicts is"
-	cont "drained to heal"
-	cont "your #MON!"
+	para "ה#ימון יונק HP"
+	line "מה#ימון היריב, כך"
+	cont "שחצי מהנזק שנגרם"
+	cont "ליריב מרפא את"
+	cont "ה#ימון שלך!"
 	done
 
 _TM21NoRoomText:: ; 9d576 (27:5576)
-	text "You should make"
-	line "room for this."
+	text "כדאי שתפנה מקום"
+	line "בתיק בשביל זה."
 	done
 
 _CeladonGymBattleText2:: ; 9d596 (27:5596)
-	text "Hey!"
+	text "היי!"
 
-	para "You are not"
-	line "allowed in here!"
+	para "אסור לך להיות"
+	line "פה!"
 	done
 
 _CeladonGymEndBattleText2:: ; 9d5b9 (27:55b9)
-	text "You're"
-	line "too rough!"
+	text "אתה אלים"
+	line "מדי!"
 	prompt
 
 _CeladonGymAfterBattleText2:: ; 9d5cb (27:55cb)
-	text "Bleaah!"
-	line "I hope ERIKA"
-	cont "wipes you out!"
+	text "פיכס!"
+	line "אני מקווה שאיריס"
+	cont "תכסח לך את הצורה!"
 	done
 
 _CeladonGymBattleText3:: ; 9d5f0 (27:55f0)
-	text "I was getting"
-	line "bored."
+	text "בדיוק התחלתי"
+	line "להשתעמם."
 	done
 
 _CeladonGymEndBattleText3:: ; 9d606 (27:5606)
-	text "My"
-	line "makeup!"
+	text "האיפור"
+	line "שלי!"
 	prompt
 
 _CeladonGymAfterBattleText3:: ; 9d612 (27:5612)
-	text "Grass-type #MON"
-	line "are tough against"
-	cont "the water-type!"
+	text "#ימונים מסוג דשא"
+	line "חזקים נגד אלה"
+	cont "מסוג מים!"
 
-	para "They also have an"
-	line "edge on rock and"
-	cont "ground #MON!"
+	para "יש להם יתרון גם על"
+	line "סוגי הסלע"
+	cont "והאדמה!"
 	done
 
 _CeladonGymBattleText4:: ; 9d675 (27:5675)
-	text "Aren't you the"
-	line "peeping Tom?"
+	text "אתה ממש מציצן,"
+	line "אה?"
 	done
 
 _CeladonGymEndBattleText4:: ; 9d691 (27:5691)
-	text "I'm"
-	line "in shock!"
+	text "אני"
+	line "המומה!"
 	prompt
 
 _CeladonGymAfterBattleText4:: ; 9d69f (27:569f)
-	text "Oh, you weren't"
-	line "peeping? We get a"
-	cont "lot of gawkers!"
+	text "אה, לא הצצת?"
+	line "כל הזמן מסתובבים"
+	cont "פה מציצנים!"
 	done
 
 _CeladonGymBattleText5:: ; 9d6d1 (27:56d1)
-	text "Look at my grass"
-	line "#MON!"
+	text "קלוט את #ימוני"
+	line "הדשא שלי!"
 
-	para "They're so easy"
-	line "to raise!"
+	para "כל כך קל"
+	line "לגדל אותם!"
 	done
 
 _CeladonGymEndBattleText5:: ; 9d702 (27:5702)
-	text "No!"
+	text "לא!"
 	prompt
 
 _CeladonGymAfterBattleText5:: ; 9d707 (27:5707)
-	text "We only use grass-"
-	line "type #MON at"
-	cont "our GYM!"
+	text "במכון שלנו, אנחנו"
+	line "משתמשות רק"
+	cont "ב#יימוני דשא!"
 
-	para "We also use them"
-	line "for making flower"
-	cont "arrangements!"
+	para "אנחנו משתמשות בהם"
+	line "גם כדי לסדר זרי"
+	cont "פרחים!"
 	done
 
 _CeladonGymBattleText6:: ; 9d762 (27:5762)
-	text "Don't bring any"
-	line "bugs or fire"
-	cont "#MON in here!"
+	text "אל תכניס #ימוני"
+	line "אש או חרק לכאן!"
 	done
 
 _CeladonGymEndBattleText6:: ; 9d78d (27:578d)
-	text "Oh!"
-	line "You!"
+	text "אוח!"
+	line "אתה!"
 	prompt
 
 _CeladonGymAfterBattleText6:: ; 9d797 (27:5797)
-	text "Our LEADER, ERIKA,"
-	line "might be quiet,"
-	cont "but she's also"
-	cont "very skilled!"
+	text "המנהיגה שלנו,"
+	line "איריס - היא אולי"
+	cont "שקטה, אבל היא"
+	cont "מאוד מוכשרת!"
 	done
 
 _CeladonGymBattleText7:: ; 9d7d7 (27:57d7)
-	text "Pleased to meet"
-	line "you. My hobby is"
-	cont "#MON training."
+	text "נעים להכיר אותך."
+	line "התחביב שלי הוא"
+	cont "אימון #ימונים."
 	done
 
 _CeladonGymEndBattleText7:: ; 9d808 (27:5808)
-	text "Oh!"
-	line "Splendid!"
+	text "הו!"
+	line "ממש נפלא!"
 	prompt
 
 _CeladonGymAfterBattleText7:: ; 9d817 (27:5817)
-	text "I have a blind"
-	line "date coming up."
-	cont "I have to learn"
-	cont "to be polite."
+	text "יש לי בליינד דייט"
+	line "בקרוב. אני צריכה"
+	cont "ללמוד להיות יותר"
+	cont "מנומסת."
 	done
 
 _CeladonGymBattleText8:: ; 9d855 (27:5855)
-	text "Welcome to"
-	line "CELADON GYM!"
+	text "ברוך הבא למכון"
+	line "עיר האביב!"
 
-	para "You better not"
-	line "underestimate"
-	cont "girl power!"
+	para "אל תעז להמעיט"
+	line "בערכו של הכוח"
+	cont "הנשי!"
 	done
 
 _CeladonGymEndBattleText8:: ; 9d897 (27:5897)
-	text "Oh!"
-	line "Beaten!"
+	text "אה!"
+	line "הובסתי!"
 	prompt
 
 _CeladonGymAfterBattleText8:: ; 9d8a4 (27:58a4)
-	text "I didn't bring my"
-	line "best #MON!"
+	text "לא הבאתי את"
+	line "ה#ימונים החזקים"
+	cont "שלי!"
 
-	para "Wait 'til next"
-	line "time!"
+	para "חכה ותראה בפעם"
+	line "הבאה!"
 	done
 

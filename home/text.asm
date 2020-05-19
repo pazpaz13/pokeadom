@@ -248,11 +248,11 @@ Char5BText:: ; 1a60 (0:1a60)
 Char5EText:: ; 1a63 (0:1a63)
 	db "ROCKET@"
 Char54Text:: ; 1a6a (0:1a6a)
-	db "POKé@"
+	db "פוק@"
 Char56Text:: ; 1a6f (0:1a6f)
 	db "……@"
 Char5AText:: ; 1a72 (0:1a72)
-	db "Enemy @"
+	db " היריב@"
 Char4AText:: ; 1a79 (0:1a79)
 	db $E1,$E2,"@" ; PKMN
 

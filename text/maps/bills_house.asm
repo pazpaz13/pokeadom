@@ -1,88 +1,87 @@
 _BillsHouseText_1e865:: ; 8d267 (23:5267)
-	text "Hiya! I'm a"
-	line "#MON..."
-	cont "...No I'm not!"
+	text "שלומות! אני"
+	line "#ימון..."
+	cont "...סתם צוחק!"
 
-	para "Call me BILL!"
-	line "I'm a true blue"
-	cont "#MANIAC! Hey!"
-	cont "What's with that"
-	cont "skeptical look?"
+	para "!שמי BILL" ;TODO
+	line "אני מעריץ הדוק"
+	cont "של #ימונים..."
+	cont "היי! מה זה"
+	cont "?המבט הזה"
 
-	para "I'm not joshing"
-	line "you, I screwed up"
-	cont "an experiment and"
-	cont "got combined with"
-	cont "a #MON!"
+	para "אני לא צוחק,"
+	line "הניסוי שלי"
+	cont "השתבש וקרה"
+	cont "שהשתלבתי עם"
+	cont "#ימון!"
 
-	para "So, how about it?"
-	line "Help me out here!"
+	para "אז מה דעתך?"
+	line "תעזור לי!"
 	done
 
 _BillsHouseText_1e86a:: ; 8d345 (23:5345)
-	text "When I'm in the"
-	line "TELEPORTER, go to"
-	cont "my PC and run the"
-	cont "Cell Separation"
-	cont "System!"
+	text "כשאהיה במשגר"
+	line "לך למחשב שלי"
+	cont "והרץ את"
+	cont "'מערכת הפרדת"
+	cont "התאים'!"
 	done
 
 _BillsHouseText_1e86f:: ; 8d391 (23:5391)
-	text "No!? Come on, you"
-	line "gotta help a guy"
-	cont "in deep trouble!"
+	text "לא?! בחייך,"
+	line "תעזור לאדם"
+	cont "בעת צרה!"
 
-	para "What do you say,"
-	line "chief? Please?"
-	cont "OK? All right!"
+	para "מה אתה אומר"
+	line "אדוני? בבקשה?"
+	cont "בסדר? יופי!"
 	prompt
 
 _BillThankYouText:: ; 8d3f5 (23:53f5)
-	text "BILL: Yeehah!"
-	line "Thanks, bud! I"
-	cont "owe you one!"
+	text "BILL: כן!" ;TODO
+	line "תודה, חבר!"
+	cont "אני חייב לך!"
 
-	para "So, did you come"
-	line "to see my #MON"
-	cont "collection?"
-	cont "You didn't?"
-	cont "That's a bummer."
+	para "אז, באת לראות"
+	line "את אוסף ה#ימונים"
+	cont "שלי?"
+	cont "לא? חבל!"
 
-	para "I've got to thank"
-	line "you... Oh here,"
-	cont "maybe this'll do."
+	para "אני חייב להודות"
+	line "לך... קח את זה,"
+	cont "אולי זה יעזור לך."
 	prompt
 
 _SSTicketReceivedText:: ; 8d499 (23:5499)
-	text $52, " received"
-	line "an @"
+	text $52, " קיבל"
+	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _SSTicketNoRoomText:: ; 8d4b0 (23:54b0)
-	text "You've got too"
-	line "much stuff, bud!"
+	text "יש לך יותר מדי"
+	line "חפצים, חבר!"
 	done
 
 _BillsHouseText_1e8cb:: ; 8d4d0 (23:54d0)
-	text "That cruise ship,"
-	line "S.S.ANNE, is in"
-	cont "VERMILION CITY."
-	cont "Its passengers"
-	cont "are all trainers!"
+	text "ספינת השיט הזו,"
+	line "S.S.ANNE, נמצאת" ;TODO
+	cont "VERMILION CITY." ;TODO
+	cont "כל נוסעיה"
+	cont "הם מאמנים!"
 
-	para "They invited me"
-	line "to their party,"
-	cont "but I can't stand"
-	cont "fancy do's. Why"
-	cont "don't you go"
-	cont "instead of me?"
+	para "הם הזמינו אותי"
+	line "למסיבה שלהם,"
+	cont "אבל אני לא סובל"
+	cont "מסיבות פאר."
+	cont "לא תלך במקומי?"
 	done
 
 _BillsHouseText_1e8da:: ; 8d57f (23:557f)
-	text "BILL: Look, bud,"
-	line "just check out"
-	cont "some of my rare"
-	cont "#MON on my PC!"
+	text "BILL: חבר, אתה " ;TODO
+	line "חייב להציץ על"
+	cont "כמה מה#ימונים"
+	cont "הנדירים במחשב"
+	cont "שלי!"
 	done
 

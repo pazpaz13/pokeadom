@@ -1,27 +1,28 @@
 _CeladonMart4Text2:: ; 9cad4 (27:4ad4)
-	text "I'm getting a"
-	line "# DOLL for my"
-	cont "girl friend!"
+	text "אני קונה בובת"
+	line "#ימון לחברה"
+	cont "!שלי"
 	done
 
 _CeladonMart4Text3:: ; 9cafd (27:4afd)
-	text "I heard something"
-	line "useful."
+	text "שמעתי משהו"
+	line "יעיל."
 
-	para "You can run from"
-	line "wild #MON by"
-	cont "distracting them"
-	cont "with a # DOLL!"
+	para "אתה יכול לברוח"
+	line "מ#ימוני בר"
+	cont "בכך שתסיח את"
+	cont "דעתם עם בובת"
+	cont "#ימון!"
 	done
 
 _CeladonMart4Text4:: ; 9cb56 (27:4b56)
-	text "Express yourself"
-	line "with gifts!"
+	text "תביע את עצמך"
+	line "!בעזרת מתנות"
 
-	para "4F: WISEMAN GIFTS"
+	para "ק4: מתנות וויזמן"
 
-	para "Evolution Special!"
-	line "Element STONEs on"
-	cont "sale now!"
+	para "ספיישל התפתחות!"
+	line "אבני היסודות"
+	cont "במבצע!"
 	done
 

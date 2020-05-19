@@ -1,99 +1,101 @@
 _TM18PreReceiveText:: ; 9c814 (27:4814)
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	para "הו, היי! סוף"
+	line "סוף סיימתי את"
+	cont "את #ימון!"
+	prompt
 
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	para "עוד לא סיימת?"
+	line "זה יכול"
+	cont "לעזור לך!"
 	prompt
 
 _ReceivedTM18Text:: ; 9c85a (27:485a)
-	text $52, " received"
+	text $52, " קיבל"
 	line "@"
 	TX_RAM wcf4b
 	text "!@@"
 
 _TM18ExplanationText:: ; 9c86e (27:486e)
-	text "TM18 is COUNTER!"
-	line "Not like the one"
-	cont "I'm leaning on,"
-	cont "mind you!"
+	text "TM18 הוא COUNTER!" ;TODO
+	line "אבל לא מנוגד" 
+	cont "כמו צבעי"
+	cont "!הבגדים שלי"
 	done
 
 _TM18NoRoomText:: ; 9c8aa (27:48aa)
-	text "Your pack is full"
-	line "of items!"
+	text "התיק שלך"
+	line "מלא בחפצים!"
 	done
 
 _CeladonMart3Text2:: ; 9c8c7 (27:48c7)
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "#ימונים שנלכדו"
+	line "מקבלים מספר"
+	cont "זהות ומ"מ,"
+	cont "השם של המאמן"
+	cont "המקורי שלכד"
+	cont "את ה#ימון!"
 	done
 
 _CeladonMart3Text3:: ; 9c92d (27:492d)
-	text "All right!"
+	text "יופי!"
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "חבר שלי הולך"
+	line "להחליף איתי את"
+	cont "KANGASKHAN שלו עבור" ;TODO
+	cont "GRAVELER שלי!" ;TODO
 	done
 
 _CeladonMart3Text4:: ; 9c975 (27:4975)
-	text "Come on GRAVELER!"
+	text "קדימה GRAVELER!" ;TODO
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "אני אוהב GRAVELER!" ;TODO
+	line "אני אוסף אותם!!"
 
-	para "Huh?"
+	para "?מה"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	line "GRAVELER הפך" ;TODO
+	cont "ל#ימון אחר!"
 	done
 
 _CeladonMart3Text5:: ; 9c9d5 (27:49d5)
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "ניתן לזהות"
+	line "#ימונים שקיבלת"
+	cont "בהחלפות לפי"
+	cont "מספרי הזהות"
+	cont "שלהם!"
 	done
 
 _CeladonMart3Text6:: ; 9ca13 (27:4a13)
-	text "It's an SNES!"
+	text "זו קונסולת משחק!"
 	done
 
 _CeladonMart3Text7:: ; 9ca21 (27:4a21)
-	text "An RPG! There's"
-	line "no time for that!"
+	text "משחק תפקידים!"
+	line "אין לי זמן לזה!"
 	done
 
 _CeladonMart3Text9:: ; 9ca43 (27:4a43)
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "משחק ספורט!"
+	line "אבא יאהב"
+	cont "את זה!"
 	done
 
 _CeladonMart3Text11:: ; 9ca64 (27:4a64)
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "!משחק פאזלים"
+	line "!נראה ממכר"
 	done
 
 _CeladonMart3Text13:: ; 9ca85 (27:4a85)
-	text "A fighting game!"
-	line "Looks tough!"
+	text "!משחק מכות"
+	line "!נראה קשה"
 	done
 
 _CeladonMart3Text14:: ; 9caa4 (27:4aa4)
-	text "3F: TV GAME SHOP"
+	text "ק3: חנות משחקי וידאו"
 	done
 
 _CeladonMart3Text15:: ; 9cab6 (27:4ab6)
-	text "Red and Blue!"
-	line "Both are #MON!"
+	text "אדום וכחול!"
+	line "שניהם #ימון!"
 	done
 

@@ -1,32 +1,32 @@
 _CeladonMart1Text1:: ; 9c672 (27:4672)
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
+	text "שלום! ברוכים הבאים"
+	line "CELADON DEPT." ;TODO
+	cont "STORE." ;TODO
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "הלוח מימין"
+	line "מראה את"
+	cont "מבנה החנות."
 	done
 
 _CeladonMart1Text2:: ; 9c6cd (27:46cd)
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "ק1: קבלה"
+	line "    דלפק"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: TRAINER'S" ;TODO
+	line "    MARKET" ;TODO
 
-	para "3F: TV GAME SHOP"
+	para "ק3: חנות משחקי וידאו"
 
-	para "4F: WISEMAN GIFTS"
+	para "4F: WISEMAN GIFTS" ;TODO
 
-	para "5F: DRUG STORE"
+	para "ק5: בית מרקחת"
 
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "רחבת הגג:"
+	line "מכונות שתיה"
 	done
 
 _CeladonMart1Text3:: ; 9c752 (27:4752)
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "ק1: קבלה"
+	line "    דלפק"
 	done
 

@@ -162,7 +162,7 @@ AIEnemyTrainerChooseMoves: ; 39719 (e:5719)
 	ld l, a
 	ld de, .nextMoveChoiceModification  ; set return address
 	push de
-	jp [hl]       ; execute modification function
+	jp hl       ; execute modification function
 .loopFindMinimumEntries ; all entries will be decremented sequentially until one of them is zero
 	ld hl, wHPBarMaxHP  ; temp move selection array
 	ld de, wEnemyMonMoves  ; enemy moves
@@ -897,7 +897,7 @@ TrainerAI: ; 3a52e (e:652e)
 	ld h,[hl]
 	ld l,a
 	call Random
-	jp [hl]
+	jp hl
 
 TrainerAIPointers: ; 3a55c (e:655c)
 ; one entry per trainer class

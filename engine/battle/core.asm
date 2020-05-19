@@ -3012,7 +3012,7 @@ Func_3d65e: ; 3d65e (f:565e)
 	jp z, Func_3d80a
 	call Func_3d854
 	jr nz, .asm_3d68a
-	jp [hl]
+	jp hl
 .asm_3d68a
 	call GetCurrentMove
 	ld hl, W_PLAYERBATTSTATUS1 ; W_PLAYERBATTSTATUS1
@@ -5451,7 +5451,7 @@ Func_3e6bc: ; 3e6bc (f:66bc)
 	ld [wd05b], a
 	call Func_3e88f
 	jr nz, .asm_3e6f2
-	jp [hl]
+	jp hl
 .asm_3e6f2
 	ld hl, W_ENEMYBATTSTATUS1 ; W_ENEMYBATTSTATUS1
 	bit 4, [hl]
@@ -6871,7 +6871,7 @@ JumpMoveEffect: ; 3f138 (f:7138)
 	ld a, [hli]
 	ld h, [hl]
 	ld l, a
-	jp [hl]       ;jump to special effect handler
+	jp hl       ;jump to special effect handler
 
 MoveEffectPointerTable: ; 3f150 (f:7150)
 	 dw SleepEffect               ; unused effect

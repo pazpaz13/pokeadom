@@ -42,7 +42,7 @@ Func_41102: ; 41102 (10:5102)
 	ld l, a
 	ld de, .asm_41115 ; $5115
 	push de
-	jp [hl]
+	jp hl
 .asm_4112d
 	pop af
 	ld [$ffae], a

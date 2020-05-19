@@ -17,7 +17,7 @@ Func_71ddf: ; 71ddf (1c:5ddf)
 	ld l, a
 	ld de, Func_72156
 	push de
-	jp [hl]
+	jp hl
 
 SendPalPacket_Black: ; 71dff (1c:5dff)
 	ld hl, PalPacket_Black

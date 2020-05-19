@@ -118,7 +118,7 @@ StartMenu_Pokemon: ; 130a9 (4:70a9)
 	ld h,[hl]
 	ld l,a
 	ld a,[W_OBTAINEDBADGES] ; badges obtained
-	jp [hl]
+	jp hl
 .outOfBattleMovePointers
 	dw .cut
 	dw .fly

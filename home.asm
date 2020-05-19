@@ -3568,7 +3568,7 @@ Bankswitch:: ; 35d6 (0:35d6)
 	ld [$2000],a
 	ld bc,.Return
 	push bc
-	jp [hl]
+	jp hl
 .Return
 	pop bc
 	ld a,b
@@ -5062,7 +5062,7 @@ CallFunctionInTable:: ; 3d97 (0:3d97)
 	ld l,a
 	ld de,.returnAddress
 	push de
-	jp [hl]
+	jp hl
 .returnAddress
 	pop bc
 	pop de
@@ -5246,7 +5246,7 @@ Func_3eb5:: ; 3eb5 (0:3eb5)
 	ld [H_LOADEDROMBANK], a
 	ld de, .asm_3eda
 	push de
-	jp [hl]
+	jp hl
 .asm_3eda
 	xor a
 	jr .asm_3eec

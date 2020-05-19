@@ -431,7 +431,7 @@ SlotMachine_37588: ; 37588 (d:7588)
 	pop hl
 	ld de, .asm_37638
 	push de
-	jp [hl]
+	jp hl
 
 .asm_37638
 	ld a, [$ff47]

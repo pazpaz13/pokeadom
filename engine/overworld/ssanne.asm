@@ -16,7 +16,7 @@ Func_79f54: ; 79f54 (1e:5f54)
 	ld bc, .asm_79f7e
 	push bc
 	ld c, $4
-	jp [hl]
+	jp hl
 .asm_79f7e
 	ld a, [rOBP1] ; $ff49
 	xor $64

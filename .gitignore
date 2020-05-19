@@ -15,6 +15,9 @@
 *.map
 *.sym
 
+# rgbasm stack dump
+*.stackdump
+
 # generated
 *.tx
 
